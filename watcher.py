@@ -29,4 +29,4 @@ while True:
         os.remove(file)
       except (FileNotFoundError, OSError) as err:
         print("↳ " + str(err))
-  time.sleep(15)
+  time.sleep(45)
